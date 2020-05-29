@@ -1,0 +1,41 @@
+{
+  "name": "ntnl",
+  "version": "1.0.0",
+  "description": "ntnl [not null]: a tiny js library which sanitazes null / undefined values from objects",
+  "main": "index.js",
+  "directories": {
+    "test": "test",
+    "src": "src"
+  },
+  "dependencies": {
+    "user": "^0.0.0",
+    "lodash.clonedeep": "^4.5.0"
+  },
+  "devDependencies": {
+    "ava": "^3.5.0",
+    "esm": "^3.2.25"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  },
+  "scripts": {
+    "test": "ava -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firmin-io/nn.git"
+  },
+  "keywords": [
+    "null",
+    "undefined",
+    "notnull"
+  ],
+  "author": "firmin.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firmin-io/nn/issues"
+  },
+  "homepage": "https://github.com/firmin-io/nn#readme"
+}
